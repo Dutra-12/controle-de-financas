@@ -9,11 +9,7 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-  <script src="./assets/jquery/jquery.min.js"></script>
-
   <link rel="stylesheet" href="./assets/entrar/css/style.css">
-  <script src="./assets/entrar/js/style.js"></script>
 
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
@@ -22,6 +18,7 @@
 </head>
 
 <body>
+<!-- <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div> -->
   <div class="container">
     <div class="row">
       <div class="col-md-5 mx-auto">
@@ -46,23 +43,21 @@
                 <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Logar</button>
               </div>
               <div class="col-md-12 mb-3">
-                <p class="text-center">
-                  <a href="" class="register"> Registrar</a>
-                </p>
+                <div class="form-group">
+                  <p class="text-center"><a href="#" class="register" id="signup">Registrar</a></p>
+                </div>
               </div>
-
             </form>
-
           </div>
         </div>
         <div id="second">
           <div class="myform form ">
-            <div class="logo mb-3">
-              <div class="col-md-12 text-center">
-                <h1>Signup</h1>
-              </div>
-            </div>
             <form action="#" name="registration">
+              <div class="logo mb-3">
+                <div class="col-md-12 text-center">
+                  <h1>Signup</h1>
+                </div>
+              </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">First Name</label>
                 <input type="text" name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
@@ -87,13 +82,17 @@
                   <p class="text-center"><a href="#" id="signin">Already have an account?</a></p>
                 </div>
               </div>
+            </form>
           </div>
-          </form>
+        </div>
+        <div id="third">
+          
         </div>
       </div>
     </div>
   </div>
-
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/entrar/js/style.js"></script>
 </body>
 
 </html>

@@ -29,7 +29,7 @@ h1, h2, h3 {
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
+  padding: 6rem;
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
