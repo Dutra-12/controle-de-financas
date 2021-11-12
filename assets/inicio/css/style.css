@@ -1,0 +1,11 @@
+.navbar-dark {
+  background-color: #262626;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  line-height: initial;
+}

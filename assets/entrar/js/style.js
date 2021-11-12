@@ -1,22 +1,30 @@
 $("#signup").click(function () {
   $("#first").fadeOut("fast", function () {
+    document.title = "Controle de finanças - Registrar"
     $("#second").fadeIn("fast");
   });
 });
 
 $("#signin").click(function () {
   $("#second").fadeOut("fast", function () {
+    document.title = "Controle de finanças - Entrar"
     $("#first").fadeIn("fast");
   });
 });
 
-// $("#signin").click(function () {
-//   $("#second").fadeOut("fast", function () {
-//     $("#first").fadeIn("fast");
-//   });
-// });
+$("#signin-forgot").click(function () {
+  $("#third").fadeOut("fast", function () {
+    document.title = "Controle de finanças - Entrar"
+    $("#first").fadeIn("fast");
+  });
+});
 
-
+$("#forgot").click(function () {
+  $("#first").fadeOut("fast", function () {
+    document.title = "Controle de finanças - Recuperar Senha"
+    $("#third").fadeIn("fast");
+  });
+});
 
 $(function () {
   $("form[name='login']").validate({
@@ -32,10 +40,10 @@ $(function () {
       }
     },
     messages: {
-      email: "Please enter a valid email address",
+      email: "Digite um e-mail válido",
 
       password: {
-        required: "Please enter password",
+        required: "Digite uma senha",
 
       }
 
