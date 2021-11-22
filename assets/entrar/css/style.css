@@ -1,6 +1,6 @@
 /* body {
   padding-top: 15rem;
-  padding-bottom: 4.2rem;
+  padding-bottom: 16rem;
   background-color: #fff;
 } */
 
@@ -52,8 +52,9 @@ h1, h2, h3 {
 }
 
 .myform {
-  margin-top: 20%;
+  margin-top: 30%;
   margin-bottom: 20%;
+  margin-left: 18%;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -153,3 +154,4 @@ form .error {
 #forgot {
   color: white;
 }
+
